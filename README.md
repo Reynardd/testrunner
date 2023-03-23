@@ -24,5 +24,5 @@ to run this program. first compile it (the compiled version is already [there](h
 to your executable
 
 in shell: `testrunner <executable name> <path to tests - optional>`
-where \<path to tests\> is the directory that contains `In` and `Out` folder
-if don't pass this argument to the program it will look for these folders inside `./Tests/`
+where \<path to tests\> is the directory that contains `In` and `Out` folder.
+if you don't pass this argument to the program it will look for these folders inside `./Tests/`
