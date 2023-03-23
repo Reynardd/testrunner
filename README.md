@@ -18,7 +18,7 @@ and have the output inside `Out` folder:
 
 ![image](https://user-images.githubusercontent.com/83103488/227315370-9f482cd1-fd83-41a6-abcc-455d82ec6891.png)
 
-> note that the name of test should be <b>exactly the same</b> in both `In` and `Out` folder.
+> note that name of the test should be <b>exactly the same</b> in both `In` and `Out` folder.
 ---
 to run this program. first compile it (the compiled version is already [there](https://raw.githubusercontent.com/Reynardd/testrunner/main/testrunner.exe)) and add it to your enviroment variables (Windows) or place it next
 to your executable
