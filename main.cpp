@@ -43,7 +43,7 @@ int main(int argc , char* argv[])
 void show_help()
 {
     string help =\
-"v2 - there are two ways you can use the testrunner\n\n\
+"there are two ways you can use the testrunner\n\n\
 1- coderunner <executable name>\n\
     following direcotoris must exits in your working directory:\n\
     Tests/In\n\
