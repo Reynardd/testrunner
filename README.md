@@ -1,3 +1,5 @@
+# TestRunner
+
 ![preview](https://user-images.githubusercontent.com/83103488/227313206-ae26fe24-825f-46b1-9233-520085d852e5.png)
 
 This program runs the tests you give it on the program <b>you</b> tell it
@@ -18,7 +20,7 @@ and have the output inside 'Out' folder:
 
 note that the name of tests should be <b>exactly the same</b>.
 
-to run this program. first compile it (the compiled version is already there) and add it to your enviroment variables (Windows) or place it next
+to run this program. first compile it (the compiled version is already [there](./testrunner.exe)) and add it to your enviroment variables (Windows) or place it next
 to your executable
 
 in shell: `testrunner <executable name> <path to tests - optional>`
