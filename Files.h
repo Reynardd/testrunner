@@ -3,9 +3,9 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-#include <filesystem>
-using namespace std;
-using namespace filesystem;
+#include <dirent.h>
+#include <sys/stat.h>
+using namespace std;;
 vector<string> get_files_list(string path);
 string readfile(string filePath);
 #endif
