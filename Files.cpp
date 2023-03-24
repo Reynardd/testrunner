@@ -1,18 +1,30 @@
 #include "Files.h"
-vector<string> get_files_list(string path)
-{
-    vector<string> result;
-    for(auto & file: directory_iterator(path))
-    {
-        if(file.is_directory()==true)
-        {
-            cout<<file.path().string()<<" is not a file"<<endl;
-            continue;
-        }
-        result.push_back(file.path().string());
+
+vector<string> get_files_list(string path) {
+    vector<string> filenames;
+
+    DIR* dir;
+    struct dirent* entry;
+
+    dir = opendir(path.c_str());
+
+    if (dir == NULL) {
+        cerr << "Error opening directory" << endl;
+        return filenames;
     }
-    return result;
+
+    while ((entry = readdir(dir)) != NULL) {
+        struct stat st;
+        string full_path = path + "/" + entry->d_name;
+
+        if (stat(full_path.c_str(), &st) == 0 && S_ISREG(st.st_mode)) {
+            filenames.push_back(full_path);
+        }
+    }
+    closedir(dir);
+    return filenames;
 }
+
 string readfile(string filePath)
 {
     FILE* file = fopen(filePath.c_str(),"r");
