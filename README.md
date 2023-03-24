@@ -20,7 +20,7 @@ and have the output inside `Out` folder:
 
 > __Note__ name of the test should be <b>exactly the same</b> in both `In` and `Out` folder.
 ---
-to run this program. first compile it (the compiled version is already [there](https://raw.githubusercontent.com/Reynardd/testrunner/main/testrunner.exe)) and add it to your enviroment variables (Windows) or place it next
+to run this program. first compile it (the compiled version is already [there](./executables)) and add it to your enviroment variables (Windows) or place it next
 to your executable
 
 in shell: `testrunner <executable name> <path to tests - optional>`
