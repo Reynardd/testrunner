@@ -9,7 +9,7 @@ This program runs the tests you give it on the program <b>you</b> tell it
 it looks for all the files inside the `In` and `Out` folder.gives all the data inside an Input file to the program and compares it with
 the text inside Output
 
-for example we have a program that takes two numbers and multiply them by each other.
+for example we have a program that takes two numbers and multiplies them by each other.
 we have test case `1.txt` inside our `In` folder:
 
 ![image](https://user-images.githubusercontent.com/83103488/227315151-7af035c5-e83d-4db0-870c-a0f73cb91438.png)
